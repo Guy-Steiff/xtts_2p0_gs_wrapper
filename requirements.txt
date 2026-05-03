@@ -1,0 +1,11 @@
+TTS>=0.22.0
+pydub>=0.25.1
+torch>=2.0.0
+llvmlite==0.43.0
+numba==0.60.0
+backports.lzma>=0.0.14  # For Python compiled without lzma support (pyenv issue)
+transformers==4.33.0  # TTS requires exactly 4.33.0 (newer versions break imports)
+
+
+
+

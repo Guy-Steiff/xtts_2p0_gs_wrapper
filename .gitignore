@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Outputs (comment out if you want to track generated files)
+outputs/audio/*.wav
+outputs/audio/*.mp3
+outputs/audio/chunks/*.wav
+!outputs/audio/.gitkeep
+
+# TTS model cache
+.TTS/
+models/
+
+# Temporary files
+*.tmp
+*.log
+.cache/
+

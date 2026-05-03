@@ -1,0 +1,10 @@
+Welcome to this example podcast episode. This is a demonstration of the offline podcast generation pipeline using Coqui XTTS version two.
+
+In this episode, we'll explore how voice cloning technology can be used to create natural-sounding speech from text. The system automatically chunks long-form content into manageable segments, synthesizes each piece, and seamlessly concatenates them into a continuous audio stream.
+
+The pipeline is fully offline, meaning it doesn't rely on any cloud services or external APIs. Everything runs locally on your machine, giving you complete control over your content and ensuring privacy.
+
+This technology has numerous applications, from creating audiobooks and educational content to generating podcast episodes and voice-overs for videos. The possibilities are truly endless.
+
+Thank you for listening to this demonstration. We hope you find this tool useful for your own creative projects.
+
