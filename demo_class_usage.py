@@ -56,8 +56,7 @@ if __name__ == "__main__":
 
     # Generate podcast
     results = generator.run(
-        # str_input_txt_path=os.path.join(_here, 'scripts', 'example_episode.txt'),
-        str_input_txt_path='/Users/gsm/videos/audio_book/teaser.txt',
+        str_input_txt_path=os.path.join(os.path.dirname(os.path.abspath(__file__)), 'scripts', 'quick_example.txt'),  # bundled demo script
         str_output_path=f"{str_full_folder}",
         b_keep_chunks=False,  # Delete chunks after completion
         normalize=True,
